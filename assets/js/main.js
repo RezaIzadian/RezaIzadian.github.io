@@ -6,7 +6,7 @@
    CONTACT CONFIG  -  edit these with real details
    ----------------------------------------------------------- */
 const CONTACT = {
-  email: '',          // e.g. 'reza.izadian@email.com'  (leave '' to hide)
+  email: 'reza.izadian@gmail.com',  // (leave '' to hide)
   phone: '',          // e.g. '+1 (613) 555-0100'
   linkedin: '',       // e.g. 'https://www.linkedin.com/in/reza-izadian'
   location: 'Ottawa, Ontario, Canada',
@@ -309,7 +309,7 @@ function applyFilter(key) {
 function renderContact() {
   const el = document.getElementById('contactActions');
   const items = [];
-  if (CONTACT.email) items.push(`<a class="contact-link primary" href="mailto:${CONTACT.email}">${svg('mail')} Email Me</a>`);
+  if (CONTACT.email) items.push(`<a class="contact-link primary" href="mailto:${CONTACT.email}">${svg('mail')} ${CONTACT.email}</a>`);
   if (CONTACT.linkedin) items.push(`<a class="contact-link" href="${CONTACT.linkedin}" target="_blank" rel="noopener">${svg('linkedin')} LinkedIn</a>`);
   if (CONTACT.phone) items.push(`<a class="contact-link" href="tel:${CONTACT.phone.replace(/[^0-9+]/g, '')}">${svg('phone')} ${CONTACT.phone}</a>`);
   if (CONTACT.resumeFile) items.push(`<a class="contact-link" href="${CONTACT.resumeFile}" download>${svg('download')} Download Résumé</a>`);
