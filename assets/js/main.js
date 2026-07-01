@@ -1,9 +1,9 @@
 /* =========================================================
-   Reza Izadian — Personal Website · main.js
+   Reza Izadian - Personal Website · main.js
    ========================================================= */
 
 /* -----------------------------------------------------------
-   CONTACT CONFIG  —  edit these with real details
+   CONTACT CONFIG  -  edit these with real details
    ----------------------------------------------------------- */
 const CONTACT = {
   email: '',          // e.g. 'reza.izadian@email.com'  (leave '' to hide)
@@ -63,7 +63,7 @@ const EXPERIENCE = [
     period: '2006 – 2011',
     role: 'Senior Programmer Analyst · Application Developer',
     org: 'Government of Canada Consulting Engagements',
-    desc: 'Delivered mission-critical N-tier web applications and financial reporting platforms for DND, Elections Canada, Department of Justice, DFO, DFAIT, and CFIA — spanning architecture, development, database design, deployment, and production support.'
+    desc: 'Delivered mission-critical N-tier web applications and financial reporting platforms for DND, Elections Canada, Department of Justice, DFO, DFAIT, and CFIA, spanning architecture, development, database design, deployment, and production support.'
   },
   {
     period: '2001 – 2006',
@@ -116,15 +116,15 @@ const PROJECTS = [
   },
   {
     n: 13, cat: 'gov', catLabel: 'Government',
-    title: 'FAST — IT Renewal Program',
+    title: 'FAST: IT Renewal Program',
     org: 'Elections Canada',
     period: '2009 – 2011',
-    desc: 'Centralized key election information services — elector registration, payment, results, and location management — from distributed returning offices into a single secure environment, delivered across four Agile teams.',
+    desc: 'Centralized key election information services (elector registration, payment, results, and location management) from distributed returning offices into a single secure environment, delivered across four Agile teams.',
     tags: ['VB.NET', 'C#', 'ASP.NET 3.5', 'Oracle 10g', 'MVC', 'Agile / TDD']
   },
   {
     n: 12, cat: 'gov', catLabel: 'Government',
-    title: 'iCase — Case Management & Timekeeping',
+    title: 'iCase: Case Management & Timekeeping',
     org: 'Department of Justice',
     period: '2008 – 2009',
     desc: 'A national, multi-level-security case-management system integrated with the department’s Recorded Information Management System (iRIMS), consolidating multiple legacy systems into one national database.',
@@ -148,7 +148,7 @@ const PROJECTS = [
   },
   {
     n: 9, cat: 'gov', catLabel: 'Government',
-    title: 'AICFI — Fisheries Financial Planning & Reporting',
+    title: 'AICFI: Fisheries Financial Planning & Reporting',
     org: 'Fisheries and Oceans Canada',
     period: '2007 – 2008',
     desc: 'Financial planning, contribution-agreement, and reporting platform for the Atlantic Integrated Commercial Fisheries Initiative, serving 34 Mi’kmaq and Maliseet First Nations with multi-year aggregate reporting.',
@@ -156,7 +156,7 @@ const PROJECTS = [
   },
   {
     n: 8, cat: 'gov', catLabel: 'Government',
-    title: 'AAROM — Aquatic Resource Management',
+    title: 'AAROM: Aquatic Resource Management',
     org: 'Fisheries and Oceans Canada',
     period: '2007',
     desc: 'Financial application and reporting tools for the Aboriginal Aquatic Resource and Oceans Management program, allocating and reporting results-based funding over a multi-year basis.',
